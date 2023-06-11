@@ -1,0 +1,113 @@
+.app-button{
+    border-radius: .8rem;
+    background-color: #B80092;
+    font-size: 1.2rem;
+    color: #EDEDED;
+    cursor: pointer;
+}
+
+.app-input{
+    border-style: none;
+    width: 100%;
+    border-radius: .4rem;
+    margin-left: 10px;
+    font-size: .9rem;
+    background-color: white;
+    /* font-size: 1.2rem; */
+}
+
+
+.app-input-box{
+    border-style: solid;
+    border-width: .1rem;
+    border-color: #B80092;
+    padding: .3rem 0;
+    border-radius: .4rem;
+    background-color: white;
+    color: #B8C2C7;
+}
+
+.alt-app-input{
+    border-style: none;
+    width: 100%;
+    border-radius: .4rem;
+    margin-left: 10px;
+    font-size: .9rem;
+    background-color: #EDEDED;
+    /* font-size: 1.2rem; */
+}
+
+.alt-app-input-box{
+    padding: .3rem 0;
+    border-radius: .4rem;
+    background-color: #EDEDED;
+}
+
+.message-input-box{
+    border-style: solid;
+    border-width: .1rem;
+    padding: .3rem 0;
+    border-radius: .4rem;
+    font-size: .9rem;
+    background-color: #EDEDED;
+    color: #B8C2C7;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.logged-in{
+    height: 100vh;
+}
+
+.scroll-y{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.scroll-x{
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
+
+.nav-btn{
+    border-radius: .4rem;
+}
+
+.gradient-bg{
+    background-image: linear-gradient(white 20%, #EDEDED); 
+}
+
+.fade-bg{
+    background-color: #B8C2C7; 
+}
+
+.bg{
+    background-color: #EDEDED;
+}
+
+nav{
+    cursor: pointer;
+}
+
+.circle{
+    padding: 1.1rem 1.2rem;
+    border-radius: 3rem;
+}
+
+.bluish-text{
+    color: #16A8A3;
+}
+
+.ellipsis-3{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
