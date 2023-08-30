@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavListItem from "../components/NavListItem";
 import { Chart as ChartJS, RadialLinearScale, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, PointElement, LineElement, Filler, BarElement } from "chart.js";
 import { Bar, Doughnut, Line } from "react-chartjs-2";
-
+// ihrfeohro
 ChartJS.register(
     ArcElement, 
     RadialLinearScale,
